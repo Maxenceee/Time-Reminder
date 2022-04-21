@@ -168,7 +168,7 @@ class ViewController: UIViewController {
     let button: UIButton = {
         let button = UIButton()
         
-        button.addTarget(self, action: #selector(buttonTouched), for: .touchUpInside)
+        button.addTarget(ViewController.self, action: #selector(buttonTouched), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.tintColor = .systemBlue
         button.contentMode = .scaleAspectFill
@@ -245,7 +245,7 @@ class ViewController: UIViewController {
 //    }
     
     @objc func buttonTouched() {
-        guard let infovc = storyboard?.instantiateViewController(identifier: "settings_vc") as? SettingsViewController else {
+        guard storyboard?.instantiateViewController(identifier: "settings_vc") is SettingsViewController else {
             return
         }       //wait view for info VC
         
