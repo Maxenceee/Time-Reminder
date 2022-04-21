@@ -3,27 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360D63CD25CBFD300079781A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360D63CC25CBFD300079781A /* LaunchScreen.storyboard */; };
+		360D63D325CC9D910079781A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D63D225CC9D910079781A /* SettingsViewController.swift */; };
 		367DC79525C5EA3C00C30266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC79425C5EA3C00C30266 /* AppDelegate.swift */; };
 		367DC79725C5EA3C00C30266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC79625C5EA3C00C30266 /* SceneDelegate.swift */; };
-		367DC79925C5EA3C00C30266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC79825C5EA3C00C30266 /* ViewController.swift */; };
-		367DC79C25C5EA3C00C30266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367DC79A25C5EA3C00C30266 /* Main.storyboard */; };
 		367DC79E25C5EA3D00C30266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367DC79D25C5EA3D00C30266 /* Assets.xcassets */; };
-		367DC7A125C5EA3D00C30266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367DC79F25C5EA3D00C30266 /* LaunchScreen.storyboard */; };
+		367DC7AE25C5EA8300C30266 /* 9825-loading-screen-loader-spinning-circle.json in Resources */ = {isa = PBXBuildFile; fileRef = 367DC7AD25C5EA8300C30266 /* 9825-loading-screen-loader-spinning-circle.json */; };
+		367DC7B725C5EA9400C30266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367DC7B425C5EA9400C30266 /* Main.storyboard */; };
+		367DC7BB25C5EA9D00C30266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC7BA25C5EA9D00C30266 /* ViewController.swift */; };
+		367DC7C125C5EAA600C30266 /* getRtTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC7BE25C5EAA600C30266 /* getRtTime.swift */; };
+		367DC7C225C5EAA600C30266 /* TimeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC7BF25C5EAA600C30266 /* TimeList.swift */; };
+		367DC7C325C5EAA600C30266 /* checkTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367DC7C025C5EAA600C30266 /* checkTime.swift */; };
+		367DC7C625C5EAC400C30266 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 367DC7C525C5EAC400C30266 /* Podfile */; };
+		367DC7E425C5F4D100C30266 /* 9764-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 367DC7E325C5F4D100C30266 /* 9764-loader.json */; };
+		367DC7E725C5F57D00C30266 /* 40898-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 367DC7E625C5F57D00C30266 /* 40898-loader.json */; };
+		3689189E25C5FDA500C86C2A /* 41267-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 3689189D25C5FDA500C86C2A /* 41267-loader.json */; };
+		368918C825C629E300C86C2A /* slow-spring-board-longer-tail-571.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 368918C025C628B000C86C2A /* slow-spring-board-longer-tail-571.m4r */; };
+		368918D625C6D49A00C86C2A /* Lanceur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368918D425C6D49A00C86C2A /* Lanceur.swift */; };
+		368918D725C6D49A00C86C2A /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368918D525C6D49A00C86C2A /* Confetti.swift */; };
+		368FCD73262C5C1D00B2945C /* 55510-atom-css-customisible.json in Resources */ = {isa = PBXBuildFile; fileRef = 368FCD72262C5C1D00B2945C /* 55510-atom-css-customisible.json */; };
+		368FCD75262C5C2200B2945C /* 50807-pacman-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 368FCD74262C5C2200B2945C /* 50807-pacman-loading.json */; };
+		368FCD7A262C750400B2945C /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FCD79262C750400B2945C /* Transition.swift */; };
+		368FCD7C262C754A00B2945C /* LauchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FCD7B262C754A00B2945C /* LauchScreen.swift */; };
+		784326790EF1DDEB1B7F06D1 /* Pods_Time_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10E3BC08C842538E088A6E /* Pods_Time_Reminder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360D63CC25CBFD300079781A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		360D63D225CC9D910079781A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		367DC79125C5EA3C00C30266 /* Time Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		367DC79425C5EA3C00C30266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		367DC79625C5EA3C00C30266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		367DC79825C5EA3C00C30266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		367DC79B25C5EA3C00C30266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		367DC79D25C5EA3D00C30266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		367DC7A025C5EA3D00C30266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		367DC7A225C5EA3D00C30266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367DC7AD25C5EA8300C30266 /* 9825-loading-screen-loader-spinning-circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9825-loading-screen-loader-spinning-circle.json"; sourceTree = "<group>"; };
+		367DC7B525C5EA9400C30266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		367DC7BA25C5EA9D00C30266 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		367DC7BE25C5EAA600C30266 /* getRtTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getRtTime.swift; sourceTree = "<group>"; };
+		367DC7BF25C5EAA600C30266 /* TimeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeList.swift; sourceTree = "<group>"; };
+		367DC7C025C5EAA600C30266 /* checkTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkTime.swift; sourceTree = "<group>"; };
+		367DC7C525C5EAC400C30266 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		367DC7E325C5F4D100C30266 /* 9764-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9764-loader.json"; sourceTree = "<group>"; };
+		367DC7E625C5F57D00C30266 /* 40898-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "40898-loader.json"; sourceTree = "<group>"; };
+		3689189D25C5FDA500C86C2A /* 41267-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "41267-loader.json"; sourceTree = "<group>"; };
+		368918A525C600E900C86C2A /* Time Reminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Time Reminder.entitlements"; sourceTree = "<group>"; };
+		368918C025C628B000C86C2A /* slow-spring-board-longer-tail-571.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slow-spring-board-longer-tail-571.m4r"; sourceTree = "<group>"; };
+		368918D425C6D49A00C86C2A /* Lanceur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lanceur.swift; sourceTree = "<group>"; };
+		368918D525C6D49A00C86C2A /* Confetti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
+		368FCD72262C5C1D00B2945C /* 55510-atom-css-customisible.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "55510-atom-css-customisible.json"; sourceTree = "<group>"; };
+		368FCD74262C5C2200B2945C /* 50807-pacman-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "50807-pacman-loading.json"; sourceTree = "<group>"; };
+		368FCD79262C750400B2945C /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		368FCD7B262C754A00B2945C /* LauchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchScreen.swift; sourceTree = "<group>"; };
+		6C22FDD79A0905F1E9BC582D /* Pods-Time Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Reminder.release.xcconfig"; path = "Target Support Files/Pods-Time Reminder/Pods-Time Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		A67AA804DD2297A95BADDB0A /* Pods-Time Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Reminder.debug.xcconfig"; path = "Target Support Files/Pods-Time Reminder/Pods-Time Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		FF10E3BC08C842538E088A6E /* Pods_Time_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784326790EF1DDEB1B7F06D1 /* Pods_Time_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +78,11 @@
 		367DC78825C5EA3C00C30266 = {
 			isa = PBXGroup;
 			children = (
+				367DC7C525C5EAC400C30266 /* Podfile */,
 				367DC79325C5EA3C00C30266 /* Time Reminder */,
 				367DC79225C5EA3C00C30266 /* Products */,
+				A302E3587073BB8770637B99 /* Pods */,
+				8EA5773FF52B359B1977F053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,88 @@
 		367DC79325C5EA3C00C30266 /* Time Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				368918A525C600E900C86C2A /* Time Reminder.entitlements */,
 				367DC79425C5EA3C00C30266 /* AppDelegate.swift */,
 				367DC79625C5EA3C00C30266 /* SceneDelegate.swift */,
-				367DC79825C5EA3C00C30266 /* ViewController.swift */,
-				367DC79A25C5EA3C00C30266 /* Main.storyboard */,
+				367DC7E325C5F4D100C30266 /* 9764-loader.json */,
+				367DC7AD25C5EA8300C30266 /* 9825-loading-screen-loader-spinning-circle.json */,
+				367DC7E625C5F57D00C30266 /* 40898-loader.json */,
+				3689189D25C5FDA500C86C2A /* 41267-loader.json */,
+				368FCD72262C5C1D00B2945C /* 55510-atom-css-customisible.json */,
+				368FCD74262C5C2200B2945C /* 50807-pacman-loading.json */,
+				367DC7B125C5EA9400C30266 /* Views */,
+				367DC7B925C5EA9D00C30266 /* ViewControllers */,
+				367DC7BD25C5EAA600C30266 /* Helpers */,
+				368918D325C6D49A00C86C2A /* Confettis */,
+				368918AF25C627B200C86C2A /* Notification Sound */,
 				367DC79D25C5EA3D00C30266 /* Assets.xcassets */,
-				367DC79F25C5EA3D00C30266 /* LaunchScreen.storyboard */,
 				367DC7A225C5EA3D00C30266 /* Info.plist */,
 			);
 			path = "Time Reminder";
+			sourceTree = "<group>";
+		};
+		367DC7B125C5EA9400C30266 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				367DC7B425C5EA9400C30266 /* Main.storyboard */,
+				360D63CC25CBFD300079781A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		367DC7B925C5EA9D00C30266 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				367DC7BA25C5EA9D00C30266 /* ViewController.swift */,
+				360D63D225CC9D910079781A /* SettingsViewController.swift */,
+				368FCD7B262C754A00B2945C /* LauchScreen.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		367DC7BD25C5EAA600C30266 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				367DC7BE25C5EAA600C30266 /* getRtTime.swift */,
+				367DC7BF25C5EAA600C30266 /* TimeList.swift */,
+				367DC7C025C5EAA600C30266 /* checkTime.swift */,
+				368FCD79262C750400B2945C /* Transition.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		368918AF25C627B200C86C2A /* Notification Sound */ = {
+			isa = PBXGroup;
+			children = (
+				368918C025C628B000C86C2A /* slow-spring-board-longer-tail-571.m4r */,
+			);
+			path = "Notification Sound";
+			sourceTree = "<group>";
+		};
+		368918D325C6D49A00C86C2A /* Confettis */ = {
+			isa = PBXGroup;
+			children = (
+				368918D425C6D49A00C86C2A /* Lanceur.swift */,
+				368918D525C6D49A00C86C2A /* Confetti.swift */,
+			);
+			path = Confettis;
+			sourceTree = "<group>";
+		};
+		8EA5773FF52B359B1977F053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF10E3BC08C842538E088A6E /* Pods_Time_Reminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A302E3587073BB8770637B99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A67AA804DD2297A95BADDB0A /* Pods-Time Reminder.debug.xcconfig */,
+				6C22FDD79A0905F1E9BC582D /* Pods-Time Reminder.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 367DC7A525C5EA3D00C30266 /* Build configuration list for PBXNativeTarget "Time Reminder" */;
 			buildPhases = (
+				120797474B43192F94F0A850 /* [CP] Check Pods Manifest.lock */,
 				367DC78D25C5EA3C00C30266 /* Sources */,
 				367DC78E25C5EA3C00C30266 /* Frameworks */,
 				367DC78F25C5EA3C00C30266 /* Resources */,
+				9701FA605D4AF451CD64D25E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,42 +240,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367DC7A125C5EA3D00C30266 /* LaunchScreen.storyboard in Resources */,
+				368FCD75262C5C2200B2945C /* 50807-pacman-loading.json in Resources */,
+				360D63CD25CBFD300079781A /* LaunchScreen.storyboard in Resources */,
+				367DC7E425C5F4D100C30266 /* 9764-loader.json in Resources */,
+				368FCD73262C5C1D00B2945C /* 55510-atom-css-customisible.json in Resources */,
+				3689189E25C5FDA500C86C2A /* 41267-loader.json in Resources */,
+				367DC7E725C5F57D00C30266 /* 40898-loader.json in Resources */,
+				368918C825C629E300C86C2A /* slow-spring-board-longer-tail-571.m4r in Resources */,
+				367DC7C625C5EAC400C30266 /* Podfile in Resources */,
+				367DC7AE25C5EA8300C30266 /* 9825-loading-screen-loader-spinning-circle.json in Resources */,
 				367DC79E25C5EA3D00C30266 /* Assets.xcassets in Resources */,
-				367DC79C25C5EA3C00C30266 /* Main.storyboard in Resources */,
+				367DC7B725C5EA9400C30266 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120797474B43192F94F0A850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9701FA605D4AF451CD64D25E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Reminder/Pods-Time Reminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Reminder/Pods-Time Reminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Reminder/Pods-Time Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		367DC78D25C5EA3C00C30266 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367DC79925C5EA3C00C30266 /* ViewController.swift in Sources */,
+				368FCD7C262C754A00B2945C /* LauchScreen.swift in Sources */,
+				367DC7C225C5EAA600C30266 /* TimeList.swift in Sources */,
+				367DC7BB25C5EA9D00C30266 /* ViewController.swift in Sources */,
+				368918D625C6D49A00C86C2A /* Lanceur.swift in Sources */,
 				367DC79525C5EA3C00C30266 /* AppDelegate.swift in Sources */,
+				367DC7C325C5EAA600C30266 /* checkTime.swift in Sources */,
+				368FCD7A262C750400B2945C /* Transition.swift in Sources */,
+				368918D725C6D49A00C86C2A /* Confetti.swift in Sources */,
 				367DC79725C5EA3C00C30266 /* SceneDelegate.swift in Sources */,
+				367DC7C125C5EAA600C30266 /* getRtTime.swift in Sources */,
+				360D63D325CC9D910079781A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		367DC79A25C5EA3C00C30266 /* Main.storyboard */ = {
+		367DC7B425C5EA9400C30266 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				367DC79B25C5EA3C00C30266 /* Base */,
+				367DC7B525C5EA9400C30266 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		367DC79F25C5EA3D00C30266 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				367DC7A025C5EA3D00C30266 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,39 +449,47 @@
 		};
 		367DC7A625C5EA3D00C30266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67AA804DD2297A95BADDB0A /* Pods-Time Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Time Reminder/Time Reminder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 238638W3AM;
 				INFOPLIST_FILE = "Time Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Maxence-Gama.Time-Reminder";
+				MARKETING_VERSION = 2.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gama-maxence.Time-Reminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		367DC7A725C5EA3D00C30266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C22FDD79A0905F1E9BC582D /* Pods-Time Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Time Reminder/Time Reminder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 238638W3AM;
 				INFOPLIST_FILE = "Time Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Maxence-Gama.Time-Reminder";
+				MARKETING_VERSION = 2.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gama-maxence.Time-Reminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

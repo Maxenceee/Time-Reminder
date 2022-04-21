@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EoI-Wi-CbH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Time_Reminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="JUt-Fb-ZlZ" kind="show" identifier="settings" id="dKD-za-FY2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="74"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="amS-WY-N0z">
+            <objects>
+                <viewController storyboardIdentifier="settings_vc" id="qfj-9l-MmC" customClass="SettingsViewController" customModule="Time_Reminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SJR-4p-AMb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="I2f-sc-KUh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XYr-JX-YLO">
+                        <barButtonItem key="rightBarButtonItem" image="save" id="eM5-Mt-Fgr">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <action selector="saveButton:" destination="qfj-9l-MmC" id="8pk-SH-zO2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="saveBUtton" destination="eM5-Mt-Fgr" id="2Ch-1X-5cE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8pc-8h-1vg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="74"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QSL-MM-4hH">
+            <objects>
+                <navigationController id="JUt-Fb-ZlZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="aaM-mz-DLS"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NyR-Xc-2ZH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qfj-9l-MmC" kind="relationship" relationship="rootViewController" id="8t5-Wa-ZP3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0rl-bI-pkr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="690" y="74"/>
+        </scene>
+        <!--Lauch Screen View Controller-->
+        <scene sceneID="Q03-JV-68T">
+            <objects>
+                <viewController id="EoI-Wi-CbH" customClass="LauchScreenViewController" customModule="Time_Reminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sVC-iz-T91">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEo-vz-KKt">
+                                <rect key="frame" x="116.5" y="783" width="181" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" © Maxence Gama" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uw-bo-MPO">
+                                        <rect key="frame" x="20" y="53.5" width="141" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bloby" translatesAutoresizingMaskIntoConstraints="NO" id="pA7-dy-qLp">
+                                        <rect key="frame" x="30.5" y="10" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="TMm-PH-Iyx"/>
+                                            <constraint firstAttribute="width" constant="100" id="lgG-4y-PK8"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pA7-dy-qLp" firstAttribute="top" secondItem="hEo-vz-KKt" secondAttribute="top" constant="10" id="37y-HL-l2Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="pA7-dy-qLp" secondAttribute="bottom" constant="18" id="RNF-9N-2Ex"/>
+                                    <constraint firstItem="3uw-bo-MPO" firstAttribute="centerX" secondItem="hEo-vz-KKt" secondAttribute="centerX" id="bR8-YA-gRe"/>
+                                    <constraint firstItem="3uw-bo-MPO" firstAttribute="centerY" secondItem="hEo-vz-KKt" secondAttribute="centerY" id="wln-r5-JfM"/>
+                                    <constraint firstAttribute="trailing" secondItem="pA7-dy-qLp" secondAttribute="trailing" constant="50.5" id="wsq-qI-xI7"/>
+                                    <constraint firstItem="pA7-dy-qLp" firstAttribute="leading" secondItem="hEo-vz-KKt" secondAttribute="leading" constant="30.5" id="ySG-zL-eMz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VwI-Dz-Y52">
+                                <rect key="frame" x="107" y="194" width="200" height="200"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock_icon" translatesAutoresizingMaskIntoConstraints="NO" id="q22-2O-u1k">
+                                        <rect key="frame" x="25" y="25" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="TSL-rc-8oO"/>
+                                            <constraint firstAttribute="height" constant="150" id="YUm-gU-1Qw"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="q22-2O-u1k" firstAttribute="centerX" secondItem="VwI-Dz-Y52" secondAttribute="centerX" id="9Pc-ST-diQ"/>
+                                    <constraint firstItem="q22-2O-u1k" firstAttribute="centerY" secondItem="VwI-Dz-Y52" secondAttribute="centerY" id="IfA-or-pRS"/>
+                                    <constraint firstAttribute="height" constant="200" id="P0Z-u7-neF"/>
+                                    <constraint firstAttribute="width" constant="200" id="gyx-ew-omR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sH0-LX-ymF"/>
+                        <color key="backgroundColor" red="0.25675198440000002" green="0.25004723670000001" blue="0.44707894329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="VwI-Dz-Y52" firstAttribute="top" secondItem="sH0-LX-ymF" secondAttribute="top" constant="150" id="HEo-Ya-Zcv"/>
+                            <constraint firstItem="VwI-Dz-Y52" firstAttribute="centerX" secondItem="sVC-iz-T91" secondAttribute="centerX" id="c6L-IF-vhR"/>
+                            <constraint firstItem="hEo-vz-KKt" firstAttribute="centerX" secondItem="sVC-iz-T91" secondAttribute="centerX" id="x5s-cH-K5Q"/>
+                            <constraint firstAttribute="bottom" secondItem="hEo-vz-KKt" secondAttribute="bottom" constant="-15" id="yzK-pM-SfK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="lauchToMain" customClass="LauchScreenTransition" customModule="Time_Reminder" customModuleProvider="target" id="LJb-Te-c0i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uc4-z4-AG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-991" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bloby" width="1200" height="1200"/>
+        <image name="clock_icon" width="340.5" height="340.5"/>
+        <image name="save" width="20" height="20"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
